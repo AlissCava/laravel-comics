@@ -16,7 +16,6 @@
         @include('components.griglia-comcs')
         @include('components.service')
         @include('components.up-footer')
-        @yield('content')
         @include('components.footer')
     </div>
 </body>
