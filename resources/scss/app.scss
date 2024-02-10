@@ -1,3 +1,44 @@
 @import "~bootstrap/scss/bootstrap";
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333; /* Grigio scuro */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer .contenuto-1, .footer .contenuto-2 {
+    position: relative;
+    margin: 10px 0;
+  }
+  
+  /* Stili aggiuntivi per differenziare i due div, opzionale */
+  .contenuto-1 {
+    background-color: rgba(255, 255, 255, 0.1); /* Leggermente trasparente per vedere il grigio scuro sotto */
+    padding: 10px;
+  }
+  
+  .contenuto-2 {
+    background-color: rgba(255, 255, 255, 0.2); /* Più trasparente del contenuto-1 */
+    padding: 10px;
+  }
+
+  nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  nav div{
+    text-align: center;
+  }
+  
 
