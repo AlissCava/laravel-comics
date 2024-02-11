@@ -14,9 +14,42 @@ body {
 
     #jumbo{
         width: 100%;
-        height: 200px;
+        min-height: 200px;
+
     }
 }
+
+// griglis comics
+.container-griglia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  background-color: rgb(51, 51, 51);
+}
+
+.row{
+  height: 200px;
+  margin: 50px;
+
+  .col{
+    margin: 10px;
+
+    img{
+      border: solid black 1px;
+      width: 70%;
+      height: 200px;
+    }
+
+    p{
+      color: white;
+    }
+  }
+}
+
+
+
+
 
 //navbar
   .contenuto-1 {

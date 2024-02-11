@@ -12,7 +12,7 @@
 <body>
     <div class="text-center">
         @include('components.header')
-        @include('components.jumboo')
+        @include ('components.jumboo')
         @include('components.griglia-comcs')
         @include('components.service')
         @include('components.up-footer')
